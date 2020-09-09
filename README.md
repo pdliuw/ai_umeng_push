@@ -8,11 +8,66 @@ A new Flutter plugin for umeng push.
 -----
 
 
+## 1.安装
+
+使用当前包作为依赖库
+
+### 1. 依赖此库
+
+在文件 'pubspec.yaml' 中添加
+
+[![pub package](https://img.shields.io/pub/v/ai_umeng_push.svg)](https://pub.dev/packages/ai_umeng_push)
+
+```
+
+dependencies:
+
+  ai_umeng_push: ^version
+
+```
+
+或者以下方式依赖
+
+```
+dependencies:
+
+  # ai_umeng_push package.
+  ai_umeng_push:
+    git:
+      url: https://github.com/pdliuw/ai_umeng_push.git
+
+```
+
+### 2. 安装此库
+
+你可以通过下面的命令行来安装此库
+
+```
+
+$ flutter pub get
+
+
+```
+
+你也可以通过项目开发工具通过可视化操作来执行上述步骤
+
+### 3. 导入此库
+
+现在，在你的Dart编辑代码中，你可以使用：
+
+```
+
+import 'package:ai_umeng_push/ai_umeng_push.dart';
+
+```
+
+
 ## 2.使用
 
 使用'友盟-推送服务'需要动态申请权限，动态权限推荐：[permission_handler](https://github.com/Baseflow/flutter-permission-handler)
 
-配置权限
+
+Platform配置及使用
 
 <details>
 <summary>Android</summary>
@@ -105,7 +160,7 @@ A new Flutter plugin for umeng push.
 
 ```
 
-* init result callback
+* 监听'初始化'结果
 
 ```
 
@@ -122,7 +177,7 @@ A new Flutter plugin for umeng push.
 
 ```
 
-* init
+* 初始化
 
 ```
 

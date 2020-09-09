@@ -1,8 +1,8 @@
 name: ai_umeng_push
 description: A new Flutter plugin for umeng push.
 version: 0.0.1
-author:
-homepage:
+homepage: https://pdliuw.github.io/
+repository: https://github.com/pdliuw/ai_umeng_push
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
